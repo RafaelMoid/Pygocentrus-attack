@@ -15,11 +15,11 @@ C:/Users/Rafael/Documents/GitHub/Pygocentrus attack
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59852
+49939
 Successfully changed project path to: C:/Users/Rafael/Documents/GitHub/Pygocentrus attack
 C:/Users/Rafael/Documents/GitHub/Pygocentrus attack
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 63.71 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 65.97 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -36,140 +36,116 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002610 seconds.
+Registered in 0.002619 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 58.84 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 65.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.864 seconds
+- Completed reload, in  1.973 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001108 seconds.
+Registered in 0.001119 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 68.51 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 71.08 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.682 seconds
+- Completed reload, in  1.880 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.4 MB.
-System memory in use after: 80.5 MB.
+Unloading 1682 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.8 MB.
+System memory in use after: 80.9 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2114.
-Total: 3.130430 ms (FindLiveObjects: 0.326728 ms CreateObjectMapping: 0.179615 ms MarkObjects: 2.518456 ms  DeleteObjects: 0.103065 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2126.
+Total: 3.031209 ms (FindLiveObjects: 0.400284 ms CreateObjectMapping: 0.103065 ms MarkObjects: 2.349529 ms  DeleteObjects: 0.175338 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Background/Homem.psd
   artifactKey: Guid(d1ee427607271024e9414fb9ac2e28e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Background/Homem.psd using Guid(d1ee427607271024e9414fb9ac2e28e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d81834a621bb7a11947f16ad896b64b') in 0.252170 seconds
-  Import took 0.258542 seconds .
+Start importing Assets/Background/Homem.psd using Guid(d1ee427607271024e9414fb9ac2e28e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a660e1b4e5a39b5e78cd548ad7f9cb44') in 0.260700 seconds
+  Import took 0.268660 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 228.763389 seconds.
-  path: Assets/Background/Mulher.psb
-  artifactKey: Guid(feabcbfa7166e284cbb41c2eb42bc895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Background/Mulher.psb using Guid(feabcbfa7166e284cbb41c2eb42bc895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4d70d5ca40df9d876dda362414519d') in 0.019388 seconds
-  Import took 0.055227 seconds .
+  Time since last request: 5.440337 seconds.
+  path: Assets/Background/Materials/agua transparente.mat
+  artifactKey: Guid(2fc54274989c6934fbb5b2915e0d9065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Materials/agua transparente.mat using Guid(2fc54274989c6934fbb5b2915e0d9065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516707a301c985184293a2a65bf304dc') in 0.211944 seconds
+  Import took 0.220373 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.563723 seconds.
-  path: Assets/Background/Barco.psb
-  artifactKey: Guid(758040d6124fe7849bf44322e6cb7fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Background/Barco.psb using Guid(758040d6124fe7849bf44322e6cb7fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a7d689253354d91dd252275fb9a9ba') in 0.023759 seconds
-  Import took 0.030953 seconds .
+  Time since last request: 0.000336 seconds.
+  path: Assets/Background/Materials/Rio transparente.mat
+  artifactKey: Guid(06145b6dc267c9f41ad62f31a38cd86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Materials/Rio transparente.mat using Guid(06145b6dc267c9f41ad62f31a38cd86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bacd492157ddf5563993cd955526049') in 0.111286 seconds
+  Import took 0.118729 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.722407 seconds.
-  path: Assets/Background/helices.psb
-  artifactKey: Guid(d3e6418327e3c5c4ca0b48e1cbae1310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Background/helices.psb using Guid(d3e6418327e3c5c4ca0b48e1cbae1310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3dde171f9c127522876b31eba3a1b8') in 0.016480 seconds
-  Import took 0.021299 seconds .
+  Time since last request: 0.000347 seconds.
+  path: Assets/Background/Materials/Background frente.mat
+  artifactKey: Guid(b9c84bf088a3f4a4481f2ae6b824fd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Materials/Background frente.mat using Guid(b9c84bf088a3f4a4481f2ae6b824fd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8aa6b071d9e6819ec3812a42a0a768') in 0.472804 seconds
+  Import took 0.483711 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.097834 seconds.
-  path: Assets/Background/Homem.psb
-  artifactKey: Guid(9001aeffc4e50834883324163ba861c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Background/Homem.psb using Guid(9001aeffc4e50834883324163ba861c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6d6d5796a10fe4583fd0495f6ed705') in 0.011121 seconds
-  Import took 0.020228 seconds .
+  Time since last request: 0.000400 seconds.
+  path: Assets/Background/Materials/Rio (1) (5).mat
+  artifactKey: Guid(58c98368c403bec4b95f11f8a8e14210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Materials/Rio (1) (5).mat using Guid(58c98368c403bec4b95f11f8a8e14210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64649593396023cf1e8399797ab920ad') in 0.107288 seconds
+  Import took 0.114343 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 782.019302 seconds.
-  path: Assets/Background/Rio.psb
-  artifactKey: Guid(981fd415125606e4ca310df1f50cb2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Background/Rio.psb using Guid(981fd415125606e4ca310df1f50cb2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b913cd8b304cc313bbb4286f4325bd') in 0.065647 seconds
-  Import took 0.092369 seconds .
+  Time since last request: 0.000277 seconds.
+  path: Assets/Background/Materials/Rio (1) (4).mat
+  artifactKey: Guid(25a452fa839592245b824055a5e39f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Materials/Rio (1) (4).mat using Guid(25a452fa839592245b824055a5e39f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9033ecffe3a6eb1cf9921c9e43d37f7') in 0.097136 seconds
+  Import took 0.104071 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 67.522553 seconds.
-  path: Assets/Background/Rio.psd
-  artifactKey: Guid(022d398238c909941942870909833089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Background/Rio.psd using Guid(022d398238c909941942870909833089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27a56458ddf2803e3b5a4b3d6f5ec34') in 0.084313 seconds
-  Import took 0.099885 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001656 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.752 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.05 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1672 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.6 MB.
-System memory in use after: 83.7 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2135.
-Total: 6.274117 ms (FindLiveObjects: 0.650890 ms CreateObjectMapping: 0.369493 ms MarkObjects: 5.196856 ms  DeleteObjects: 0.052601 ms)
+  Time since last request: 0.000496 seconds.
+  path: Assets/Background/Materials/background tras ceu.mat
+  artifactKey: Guid(91b0fb62b7bc68a4abdafe5aa40c4c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Materials/background tras ceu.mat using Guid(91b0fb62b7bc68a4abdafe5aa40c4c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d32f37e46c83b59260c19fa09ca1db1') in 0.325932 seconds
+  Import took 0.336461 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 447.061107 seconds.
-  path: Assets/Background/Rio transparente.psd
-  artifactKey: Guid(319ce7b0cb9c91842b0ca2441123ff3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Background/Rio transparente.psd using Guid(319ce7b0cb9c91842b0ca2441123ff3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b31baf1b1a8a96c5f0b71ae40c317d') in 0.154804 seconds
-  Import took 0.162945 seconds .
+  Time since last request: 0.000709 seconds.
+  path: Assets/Background/Materials/Rio (1) (2).mat
+  artifactKey: Guid(89df7da70158c8f46a409054368d9ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Materials/Rio (1) (2).mat using Guid(89df7da70158c8f46a409054368d9ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef3e8a74493fa1d4a0f828453d56b24') in 0.089697 seconds
+  Import took 0.096074 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Background/Rio (1).psd
-  artifactKey: Guid(64ab4cc66a4e9c442b02a0f489ea5da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Background/Rio (1).psd using Guid(64ab4cc66a4e9c442b02a0f489ea5da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e702198919d3e92dcc969054c573a4') in 0.107990 seconds
-  Import took 0.115070 seconds .
+  Time since last request: 0.000290 seconds.
+  path: Assets/Background/Materials/Rio (1) (3).mat
+  artifactKey: Guid(d7e879f7dd1f32f4b8a06a3b198aa477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Materials/Rio (1) (3).mat using Guid(d7e879f7dd1f32f4b8a06a3b198aa477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a151a9db2a177f4440dc9b2ea5e87b') in 0.098063 seconds
+  Import took 0.106168 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
