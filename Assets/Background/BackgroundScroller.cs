@@ -2,20 +2,23 @@ using UnityEngine;
 
 public class BackgroundScroller : MonoBehaviour
 {
-    [Range (-3f,3f)]
-    public float scrollSpeed = 1f;
-    private float offset;
-    private Material mat;
+    private float lenght, startPos;
+    public GameObject cam;
+    public float parallaxEffect;
 
     void Start()
     {
-      mat = GetComponent<Renderer>().material;  
+        startPos = transform.position.x;
+        lenght = GetComponent<SpriteRenderer>().bounds.size.x;
     }
 
+    void FixedUpdate() {
+        float temp = (cam.transform.position.x * (1 - parallaxEffect));
+        float dist = (cam.transform.position.x * parallaxEffect);
 
-    void Update()
-    {
-        offset += (Time.deltaTime * scrollSpeed) /10f;
-        mat.SetTextureOffset("_MainTex", new Vector2(offset,0));
+        transform.position = new Vector3(startPos + dist, cam.transform.position.y, cam.transform.position.z);
+
+        if (temp > startPos + lenght) startPos += lenght;
+        else if (temp < startPos - lenght) startPos -= lenght;
     }
 }

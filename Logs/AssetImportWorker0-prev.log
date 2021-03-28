@@ -1,0 +1,175 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 8.1  (6.3.0) 64bit' Language: 'pt' Physical Memory: 8072 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Rafael/Documents/GitHub/Pygocentrus attack
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59852
+Successfully changed project path to: C:/Users/Rafael/Documents/GitHub/Pygocentrus attack
+C:/Users/Rafael/Documents/GitHub/Pygocentrus attack
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 63.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Rafael/Documents/GitHub/Pygocentrus attack/Assets
+GfxDevice: creating device client; threaded=0
+d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   
+    VRAM:     1760 MB
+    Driver:   10.18.10.3383
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002610 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 58.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.864 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001108 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 68.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.682 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1670 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2114.
+Total: 3.130430 ms (FindLiveObjects: 0.326728 ms CreateObjectMapping: 0.179615 ms MarkObjects: 2.518456 ms  DeleteObjects: 0.103065 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Background/Homem.psd
+  artifactKey: Guid(d1ee427607271024e9414fb9ac2e28e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Homem.psd using Guid(d1ee427607271024e9414fb9ac2e28e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d81834a621bb7a11947f16ad896b64b') in 0.252170 seconds
+  Import took 0.258542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 228.763389 seconds.
+  path: Assets/Background/Mulher.psb
+  artifactKey: Guid(feabcbfa7166e284cbb41c2eb42bc895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Mulher.psb using Guid(feabcbfa7166e284cbb41c2eb42bc895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4d70d5ca40df9d876dda362414519d') in 0.019388 seconds
+  Import took 0.055227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.563723 seconds.
+  path: Assets/Background/Barco.psb
+  artifactKey: Guid(758040d6124fe7849bf44322e6cb7fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Barco.psb using Guid(758040d6124fe7849bf44322e6cb7fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a7d689253354d91dd252275fb9a9ba') in 0.023759 seconds
+  Import took 0.030953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.722407 seconds.
+  path: Assets/Background/helices.psb
+  artifactKey: Guid(d3e6418327e3c5c4ca0b48e1cbae1310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/helices.psb using Guid(d3e6418327e3c5c4ca0b48e1cbae1310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3dde171f9c127522876b31eba3a1b8') in 0.016480 seconds
+  Import took 0.021299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.097834 seconds.
+  path: Assets/Background/Homem.psb
+  artifactKey: Guid(9001aeffc4e50834883324163ba861c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Homem.psb using Guid(9001aeffc4e50834883324163ba861c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6d6d5796a10fe4583fd0495f6ed705') in 0.011121 seconds
+  Import took 0.020228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 782.019302 seconds.
+  path: Assets/Background/Rio.psb
+  artifactKey: Guid(981fd415125606e4ca310df1f50cb2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Rio.psb using Guid(981fd415125606e4ca310df1f50cb2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b913cd8b304cc313bbb4286f4325bd') in 0.065647 seconds
+  Import took 0.092369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.522553 seconds.
+  path: Assets/Background/Rio.psd
+  artifactKey: Guid(022d398238c909941942870909833089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Rio.psd using Guid(022d398238c909941942870909833089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27a56458ddf2803e3b5a4b3d6f5ec34') in 0.084313 seconds
+  Import took 0.099885 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001656 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.752 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1672 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.6 MB.
+System memory in use after: 83.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2135.
+Total: 6.274117 ms (FindLiveObjects: 0.650890 ms CreateObjectMapping: 0.369493 ms MarkObjects: 5.196856 ms  DeleteObjects: 0.052601 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 447.061107 seconds.
+  path: Assets/Background/Rio transparente.psd
+  artifactKey: Guid(319ce7b0cb9c91842b0ca2441123ff3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Rio transparente.psd using Guid(319ce7b0cb9c91842b0ca2441123ff3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b31baf1b1a8a96c5f0b71ae40c317d') in 0.154804 seconds
+  Import took 0.162945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Background/Rio (1).psd
+  artifactKey: Guid(64ab4cc66a4e9c442b02a0f489ea5da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Rio (1).psd using Guid(64ab4cc66a4e9c442b02a0f489ea5da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e702198919d3e92dcc969054c573a4') in 0.107990 seconds
+  Import took 0.115070 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
